@@ -1682,3 +1682,373 @@ input[type="text"].greennature-payment-price-fill { display: inline-block;
 .greennature-image img {
 	width: 100%;
 }
+
+
+
+/* new hero */
+
+/* ==========================================================================
+   Header Section
+   ========================================================================== */
+   .header_section{
+    /* background-color: #ffffff; */
+    
+    width: 100%;
+    height: 100px;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0px;
+}    
+
+.hero_section{
+    background-image: url("../img/hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero_section2{
+    background-image: url("../img/hero2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section2:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero_section3{
+    background-image: url("../img/hero3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section3:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+.hero_section4{
+    background-image: url("../img/hero4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section4:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero_section5{
+    background-image: url("../img/hero5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section5:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero_section5{
+    background-image: url("../img/hero6.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section5:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero_section9{
+    background-image: url("../img/hero7.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section9:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero_section7{
+    background-image: url("../img/hero8.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section7:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero-text{
+    color: #41B6E6;
+}
+
+.navbar-fixed.header_section{
+    height: 100px;
+    background: rgba(0, 0, 0, 0.9);
+    
+   content: '';
+    padding: 0;
+}
+.navbar-fixed ul.nav > li > a{
+    color: #f8f8f8;
+}
+.navbar-fixed ul.nav > li > a:hover,
+.navbar-fixed ul.nav > li > a:focus,
+.navbar-fixed ul.nav > li.active > a{
+    color: rgb(232, 32, 48);
+}
+.logo-light,
+.navbar-fixed .logo-light,
+.logo-dark,
+.navbar-fixed .logo-dark,
+.navbar-fixed.header_section,
+.header_section{
+    transition: all 0.3s ease-in-out;
+}
+.navbar{
+    border: medium none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    margin: 0;
+    position: relative;
+}
+.navbar-header {
+    padding: 0px;
+}
+.navbar-header .brand{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -1px;
+    font-weight: 600;
+	margin-left: 13px;
+    margin-top: 40px;
+}
+.navbar-header .nav-btn{
+    padding: 8px;
+    border-radius: 1px;
+}
+.navbar-header .nav-btn .icon-bar{
+    background-color: #fff;
+    width: 18px;
+}
+.navbar-fixed .navbar-header .nav-btn .icon-bar{
+    background-color: #fff;
+}
+.navbar-header .nav-btn:hover,
+.navbar-header .nav-btn:focus{
+    opacity: 0.8;
+}
+
+/* Nav Menu */
+#navbar{
+    z-index: 999;
+    padding: 0 15px;
+}
+ul.nav{}
+ul.nav > li{}
+ul.nav > li > a{
+    color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 60px;
+    z-index: 1;
+}
+ul.nav > li > a:hover,
+ul.nav > li > a:focus,
+ul.nav > li.active > a{
+    background: none;
+    color: #fff;
+}
+
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+.hero_section{
+    background-image: url("../img/hero2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    z-index: 1;
+}
+.hero_section:before{
+    /* background: #006ef5;
+    background: -moz-linear-gradient(-45deg, #006ef5 0%, #006ef5 100%);
+    background: -webkit-linear-gradient(-45deg, #006ef5 0%,#006ef5 100%);
+    background: linear-gradient(135deg, #006ef5 0%,#006ef5 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f98f1c', endColorstr='#f45442',GradientType=1 );
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.hero_moc{
+    background-image: url(../img/hero-moc.png);
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero_content {
+    padding: 150px 0;
+}
+.hero_content h1{}
+.hero_content p {
+    color: #fff;
+}
+.hero_moc{}
+.hero_moc img{
+    width: 100%;
+}
